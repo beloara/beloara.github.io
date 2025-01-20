@@ -1,0 +1,76 @@
+@font-face {
+    font-family: 'Golos Text';
+    src: url('../fonts/GolosText-Bold.eot');
+    src: url('../fonts/GolosText-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/GolosText-Bold.woff2') format('woff2'),
+        url('../fonts/GolosText-Bold.woff') format('woff'),
+        url('../fonts/GolosText-Bold.ttf') format('truetype'),
+        url('../fonts/GolosText-Bold.svg#GolosText-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Golos Text';
+    src: url('../fonts/GolosText-Medium.eot');
+    src: url('../fonts/GolosText-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/GolosText-Medium.woff2') format('woff2'),
+        url('../fonts/GolosText-Medium.woff') format('woff'),
+        url('../fonts/GolosText-Medium.ttf') format('truetype'),
+        url('../fonts/GolosText-Medium.svg#GolosText-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Golos Text';
+    src: url('../fonts/GolosText-Regular.eot');
+    src: url('../fonts/GolosText-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/GolosText-Regular.woff2') format('woff2'),
+        url('../fonts/GolosText-Regular.woff') format('woff'),
+        url('../fonts/GolosText-Regular.ttf') format('truetype'),
+        url('../fonts/GolosText-Regular.svg#GolosText-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Golos Text';
+    src: url('../fonts/GolosText-SemiBold.eot');
+    src: url('../fonts/GolosText-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/GolosText-SemiBold.woff2') format('woff2'),
+        url('../fonts/GolosText-SemiBold.woff') format('woff'),
+        url('../fonts/GolosText-SemiBold.ttf') format('truetype'),
+        url('../fonts/GolosText-SemiBold.svg#GolosText-SemiBold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Merriweather';
+    src: url('../fonts/Merriweather-Regular.eot');
+    src: url('../fonts/Merriweather-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Merriweather-Regular.woff2') format('woff2'),
+        url('../fonts/Merriweather-Regular.woff') format('woff'),
+        url('../fonts/Merriweather-Regular.ttf') format('truetype'),
+        url('../fonts/Merriweather-Regular.svg#Merriweather-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Merriweather';
+    src: url('../fonts/Merriweather-Bold.eot');
+    src: url('../fonts/Merriweather-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Merriweather-Bold.woff2') format('woff2'),
+        url('../fonts/Merriweather-Bold.woff') format('woff'),
+        url('../fonts/Merriweather-Bold.ttf') format('truetype'),
+        url('../fonts/Merriweather-Bold.svg#Merriweather-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}

@@ -1,0 +1,547 @@
+@media (max-width: 1365px) {
+  body {
+    min-width: 320px;
+  }
+}
+
+@media (max-width: 1280px) {
+  .header {
+    background-image: url(../img/header-full-bg.jpg),
+      url(../img/header-texture.jpg);
+    background-repeat: no-repeat, repeat;
+    background-position: 150% 100%,
+      0 0;
+    background-size: 90% auto, auto;
+  }
+
+  /* .stages__list li:last-child {
+    grid-column-start: 3;
+
+  }
+  .stages__list li:nth-child(3) {
+    grid-column-start: span 3;
+  } */
+  .carousel__item--left {
+    padding-right: 2%;
+    /* padding: 0; */
+  }
+
+  .carousel__item--right {
+    padding-left: 2%;
+    /* padding: 0; */
+  }
+
+  .members-list li {
+    box-sizing: content-box;
+    width: calc(96% / 3);
+  }
+
+  .stages__plane {
+    width: 300px;
+  }
+
+  .stages__list li:last-child {
+    padding-right: 238px;
+  }
+}
+
+@media (max-width: 960px) {
+  .header {
+    background-position: 170% 100%,
+      0 0;
+  }
+
+  .btn-trans {
+    background-color: #fff;
+    border: none;
+  }
+
+  .container {
+    padding: 0 40px;
+  }
+
+  .header__title {
+    font-size: 46px;
+
+  }
+
+  .header__title-second {
+    text-align: center;
+  }
+
+  .support {
+    margin-bottom: 120px;
+  }
+
+  .support__title {
+    font-size: 28px;
+  }
+
+  .support__grandmaster {
+    margin-right: 0;
+  }
+
+  .support__description {
+    width: 55%;
+  }
+
+  .stages__list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .stages__list li:nth-child(3) {
+    grid-row-start: auto;
+  }
+
+  .stages__list li:last-child {
+    min-height: 235px;
+    padding-right: 280px;
+  }
+
+  .members-list h3 {
+    height: 58px;
+  }
+
+  .carousel__btns {
+    top: 68px;
+  }
+
+  .stages {
+    margin-bottom: 120px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 0 20px;
+  }
+
+  .section-title {
+    font-size: 36px;
+  }
+
+  .header {
+    background-position: 80% 100%,
+      0 0;
+    background-size: 150% auto, auto;
+  }
+
+  .header__left {
+    margin: 0 auto;
+  }
+
+  .header__title {
+    font-size: 36px;
+    text-align: center;
+  }
+
+  .header__btns {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .header__btn {
+    min-width: 340px;
+    padding: 12px 41px;
+  }
+
+  .header__btns li:first-child {
+    margin-bottom: 16px;
+  }
+
+  .header__logo {
+    margin-bottom: 35px;
+  }
+
+  .support__title {
+    font-size: 20px;
+  }
+
+  .support__title-top {
+    margin-right: 15px;
+  }
+
+  .support__bottom {
+    flex-direction: column;
+  }
+
+  .support__grandmaster {
+    margin: 0 auto 24px auto;
+    width: 40%;
+  }
+
+  .support__grandmaster-pic {
+    position: static;
+    margin-right: 0;
+  }
+
+  .support__grandmaster {
+    width: 80%;
+  }
+
+  .support__description {
+    width: 100%;
+  }
+
+  .carousel .carousel__item {
+    transition: opacity 1s, visibility 1s;
+    width: 100%;
+    opacity: 0;
+    transform: rotate(0);
+  }
+
+  .carousel .carousel__item--main {
+    opacity: 1;
+  }
+
+  .carousel .carousel__item--left,
+  .carousel .carousel__item--right {
+    visibility: hidden;
+    position: absolute;
+    width: 0;
+    height: 0;
+    opacity: 0;
+  }
+
+  .carousel__btns {
+    top: auto;
+    left: 50%;
+    bottom: -80px;
+    margin-left: -75.5px;
+  }
+
+  .stages__list {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .stages__list li:last-child {
+    padding-right: 20px;
+    padding-bottom: 200px;
+  }
+  .members-list h3 {
+    height: auto;
+}
+}
+
+@media (max-width: 480px) {
+  .support {
+    margin-top: 48px;
+  }
+
+  .support__top {
+    flex-direction: column;
+  }
+
+  .support__title-adapt {
+    display: block;
+    margin-top: 258px;
+  }
+
+  .support__top {
+    position: relative;
+  }
+
+  .support__chess-pic {
+    position: absolute;
+    top: 100px;
+    height: auto;
+    width: 90%;
+    left: 20px;
+  }
+
+  .support__chess-pic img {
+    height: 212px;
+  }
+
+  .support__title {
+    width: 100%;
+    margin-right: 0;
+  }
+
+  .support__grandmaster {
+    width: 80%;
+  }
+
+  .support__event {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 375px) {
+  .header {
+    padding-bottom: 293px;
+    background-image: url(../img/header-bg-375.png),
+      url(../img/header-texture.jpg);
+    background-position: 79% 103%;
+    background-size: auto;
+  }
+
+  .header__logo {
+    margin-top: 16px;
+    width: 213px;
+  }
+
+  .header__left {
+    margin: auto;
+  }
+
+  .header__title {
+    text-align: left;
+  }
+
+  .header__title-first {
+    padding-left: 7px;
+  }
+
+  .header__title-second {
+    text-align: right;
+  }
+
+  .header__text {
+    margin-bottom: 31px;
+    text-align: left;
+    line-height: 130%;
+  }
+
+  .header__btns {
+    align-items: stretch;
+  }
+
+  .header__btn {
+    min-width: auto;
+    padding: 12px 41px;
+    width: 100%;
+  }
+
+  .marquee {
+    height: 38px;
+    font-size: 16px;
+  }
+
+  .section-title {
+    line-height: 110%;
+    ;
+  }
+
+  .support__container {
+    padding: 0;
+  }
+
+  .support__top {
+    margin-bottom: 20px;
+    padding: 0 20px;
+  }
+
+  .support__description {
+    padding: 0 20px;
+  }
+
+  .support__title {
+    font-size: 28px;
+  }
+
+  .support__chess-pic {
+    top: 175px;
+  }
+
+  .support__title-adapt {
+    margin-top: 260px;
+  }
+
+  .support__grandmaster {
+    width: 100%;
+    margin-bottom: 9px;
+    overflow: hidden;
+  }
+
+  .support__title-bottom {
+    margin-bottom: 27px;
+  }
+
+  .support__event {
+    margin-bottom: 40px;
+  }
+
+  .support__event dl {
+    display: block;
+    font-size: 20px;
+  }
+
+  .support__event dt,
+  .support__event dd {
+    padding-left: 0;
+    border-right: none;
+  }
+
+  body .support__bottom .support__event dt {
+    display: inline-block;
+    padding-top: 16px;
+    padding-bottom: 11px;
+    padding-right: 7px;
+    border-bottom: none;
+  }
+
+  body .support__bottom .support__event dd {
+    display: inline-block;
+    padding-top: 0px;
+    padding-bottom: 16px;
+  }
+
+  .support__event dl:last-child dd {
+    padding-bottom: 0;
+  }
+
+  .support__link {
+    font-size: 18px;
+  }
+
+  .stages__title {
+    margin-bottom: 147px;
+    line-height: 110%;
+  }
+
+  .stages__title::after {
+    margin-left: 0;
+    margin-top: 15px;
+    font-size: 18px;
+    max-width: 100%;
+  }
+
+  .stages__plane {
+    transform: rotate(-4deg);
+    right: 7px;
+    top: 192px;
+    width: 340px;
+    bottom: auto;
+  }
+
+  .stages__btns {
+    display: flex;
+    justify-content: center;
+  }
+
+  .stages__list {
+    display: block;
+    min-height: 300px;
+    margin-bottom: 27px;
+    padding: 62px 20px 20px;
+    overflow: hidden;
+    background-image: url(../img/paper-bg.jpg);
+  }
+
+  .stages__list li {
+    position: absolute;
+    padding: 0;
+    visibility: hidden;
+    display: flex;
+    width: 0;
+    height: 0;
+    opacity: 0;
+    font-size: 18px;
+  }
+
+  .stages__list li:last-child {
+    min-height: auto;
+  }
+
+  .stages__list li::before {
+    content: '';
+    display: none;
+  }
+
+  .stages__list li:last-child {
+    padding-bottom: 20px;
+  }
+
+  .stages__list .stage--show,
+  .stages__list .double-second--show {
+    position: static;
+    height: 100%;
+    width: 100%;
+    opacity: 1;
+    visibility: visible;
+    transition: opacity 0.5s ease, visibility 0.5s ease;
+  }
+
+  .double-first {
+    margin-bottom: 28px;
+  }
+
+  .stages__points {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 16px;
+    margin-right: 16px;
+    width: 74px;
+  }
+
+  .stages__points li {
+    width: 10px;
+    height: 10px;
+    background-color: #D9D9D9;
+    border-radius: 50%;
+    transition: background-color 0.3s ease-in-out;
+  }
+
+  .stages__points .stages__points--active {
+    background-color: var(--color-grey);
+  }
+
+  .stages__btns .carousel__btn,
+  .carousel__btns .carousel__btn {
+    width: 36px;
+    height: 36px;
+  }
+
+  .members__img {
+    width: 244px;
+    height: 244px;
+  }
+
+  .members__title {
+    margin-bottom: 38px;
+  }
+
+  .members-list h3 {
+    margin-bottom: 9px;
+    height: auto;
+    width: 100%;
+  }
+  .carousel__numbers {
+    font-size: 16px;
+    margin: 8px 15px 10px 15px;
+    min-width: 29px;
+  }
+  .carousel__btns {
+    margin-left: -66px;
+  }
+  .members {
+    margin-bottom: 174px;
+  }
+  .footer .footer__container {
+    padding-top: 42px;
+    padding-bottom: 60px;
+  }
+
+}
+
+@media (max-width: 370px) {
+  .header__title {
+    font-size: 28px;
+  }
+
+  .header__title-second {
+    text-align: center;
+  }
+
+  .header__btn {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+
+  .header__text {
+    font-size: 14px;
+  }
+}
