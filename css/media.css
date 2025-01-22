@@ -14,21 +14,12 @@
     background-size: 90% auto, auto;
   }
 
-  /* .stages__list li:last-child {
-    grid-column-start: 3;
-
-  }
-  .stages__list li:nth-child(3) {
-    grid-column-start: span 3;
-  } */
   .carousel__item--left {
     padding-right: 2%;
-    /* padding: 0; */
   }
 
   .carousel__item--right {
     padding-left: 2%;
-    /* padding: 0; */
   }
 
   .members-list li {
@@ -97,7 +88,9 @@
     min-height: 235px;
     padding-right: 280px;
   }
-
+  .members-list {
+    min-height: auto;
+  }
   .members-list h3 {
     height: 58px;
   }

@@ -462,6 +462,7 @@ marquee
 }
 
 .members-list {
+  min-height: 463px;
   justify-content: center;
 }
 
